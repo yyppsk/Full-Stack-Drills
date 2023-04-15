@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+  </head>
+  <style>
+    .card {
+      border: 1px solid grey;
+      border-radius: 4px;
+      height: 380px;
+      width: 400px;
+    }
+    .card:hover {
+      cursor: pointer;
+    }
+    img {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 100%;
+    }
+    .details {
+      padding-left: 10px;
+    }
+    p {
+      margin-bottom: 4px;
+      margin-top: 4px;
+    }
+    progress {
+      width: 95%;
+    }
+    .blurbg {
+      background-image: url(./cover.jpg);
+      background-size: cover;
+      z-index: 0;
+    }
+  </style>
+  <body>
+    <div class="card">
+      <div class="blurbg"></div>
+      <img src="./cover.jpg" alt="lovebabbar" />
+      <div class="details">
+        <p style="color: rgb(4, 4, 32)">Web Development Bootcamp</p>
+        <p style="color: grey">Love Babbar</p>
+        <div>
+          <progress id="file" value="4" max="100">32%</progress>
+          <p style="font-size: 14px; color: blue">4% completed</p>
+        </div>
+        <span style="color: rgb(54, 193, 54); font-size: 10px"
+          ><span style="color: grey; font-size: 10px">Valid Till:</span> Jan 01,
+          2025</span
+        >
+      </div>
+    </div>
+  </body>
+</html>
