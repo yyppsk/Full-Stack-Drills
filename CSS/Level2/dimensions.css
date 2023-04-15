@@ -1,0 +1,11 @@
+.box {
+  border: 2px black solid;
+  color: blueviolet;
+  max-height: 100px;
+  overflow: scroll;
+}
+.box2 {
+  margin: 10px;
+  border: 1px solid black;
+  min-height: 100px;
+}
