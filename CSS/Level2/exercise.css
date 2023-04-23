@@ -1,0 +1,35 @@
+div {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
+.topleft {
+  position: absolute;
+  background-color: aquamarine;
+  top: 0px;
+  left: 0px;
+}
+.topright {
+  position: absolute;
+  background-color: red;
+  top: 0px;
+  right: 0px;
+}
+.bottomleft {
+  background-color: palegoldenrod;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.bottomright {
+  background-color: greenyellow;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+.Middle {
+  background-color: pink;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
