@@ -3,6 +3,20 @@
   /* transform: translateX(100px);
   transform: translateY(100px);
   transform: rotate(-45deg);
-  transform: scale(2,10) Scale Axis X or Y by some values; */
-  transform: skew(45deg);
+  transform: scale(2,10) Scale Axis X or Y by some values; 
+  transform: skew(20deg);
+  */
+}
+div {
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+.translated {
+  transform: perspective(10px) translateZ(-10px);
+}
+.scaled {
+  margin-left: 100px;
+  transform: perspective(350px) scaleZ(6) rotateY(30deg);
 }

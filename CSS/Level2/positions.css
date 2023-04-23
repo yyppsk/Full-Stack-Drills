@@ -1,0 +1,21 @@
+div {
+  width: 150px;
+  display: inline-block;
+  height: 150px;
+  background-color: aqua;
+  border: 1px solid black;
+}
+#box3 {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+#box4 {
+  position: sticky;
+  top: 20px;
+}
+.wrap {
+  height: 1000px;
+  background-color: blueviolet;
+  width: 100vw;
+}
