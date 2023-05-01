@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+  font-family: "Poppins", sans-serif;
+}
+@media (width >= 660px) {
+  .card {
+    width: 60vw;
+  }
+}
+@media (width >= 960px) {
+  .pricing {
+    padding: 0;
+    flex-direction: row;
+  }
+}
+@media (width <= 760px) {
+  .pricing {
+    padding: 0;
+    flex-direction: column;
+  }
+}
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 180vh;
+  overflow-y: scroll;
+}
+.bg1 {
+  position: relative;
+  background-color: rgb(62, 62, 206);
+  height: 50%;
+}
+.bg2 {
+  position: relative;
+  background-color: rgb(209, 230, 238);
+  height: 50%;
+}
+.pricing {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  height: 400px;
+  background-color: white;
+  width: 19rem;
+  border-radius: 4px;
+}
+#elite {
+  height: 480px;
+}
+#free button {
+  background-color: aliceblue;
+  color: rgb(62, 62, 206);
+  font-weight: 500;
+}
+#free button:hover {
+  background-color: rgb(159, 114, 201);
+  color: white;
+}
+#pro button {
+  background-color: aliceblue;
+  color: rgb(62, 62, 206);
+  font-weight: 500;
+}
+#pro button:hover {
+  background-color: rgb(159, 114, 201);
+  color: white;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+ul li:before {
+  content: "✓";
+}
+.container .pricing .card h3 {
+  margin-top: 12%;
+  margin-bottom: 2%;
+  font-size: 1rem;
+}
+.container .pricing .card h1 {
+  font-size: 3rem;
+  margin-bottom: 10%;
+  color: rgb(62, 62, 206);
+}
+button {
+  width: 60%;
+  height: 10%;
+  border: 1px solid rgb(62, 62, 206);
+  border-radius: 6px;
+  background-color: rgb(62, 62, 206);
+  color: aliceblue;
+  cursor: pointer;
+}
+.btn-choose:hover {
+  background-color: rgb(159, 114, 201);
+}
