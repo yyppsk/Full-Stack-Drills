@@ -201,3 +201,49 @@ a {
     transform: rotateY(360deg) translateY(0px);
   }
 }
+.icon-circle {
+  z-index: 9;
+  left: 0;
+  bottom: 0;
+  animation-name: shakeEffect;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shakeEffect {
+  50% {
+    left: 5%;
+    bottom: 10%;
+  }
+}
+.icon-zigzag {
+  z-index: 9;
+  top: 1.5em;
+  left: -0.3em;
+  animation-name: zigzagAni;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes zigzagAni {
+  50% {
+    left: 5%;
+    top: 2%;
+  }
+}
+.icon-plus {
+  z-index: 9;
+  top: -0.8em;
+  left: 50%;
+  animation-name: shakeEffectPlus;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes shakeEffectPlus {
+  50% {
+    top: 3%;
+    left: 48%;
+  }
+}
