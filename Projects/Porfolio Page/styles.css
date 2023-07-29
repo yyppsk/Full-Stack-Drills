@@ -593,33 +593,39 @@ footer {
   position: relative;
   height: 5.4rem;
   margin-top: -1px;
-  background-color: #343d68;
+  background-color: #a2bf9a;
   display: flex;
   padding: 5rem;
 }
 .footer-wrapper {
+  width: 70vw;
+  flex-direction: column;
   display: flex;
   gap: 1rem;
   padding: 1.2rem;
-  justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 .footer-faded-text {
   position: absolute;
   left: 0;
-  top: 1.4em;
+  top: 0.1em;
   bottom: 0;
-  color: #535c87;
-  font-size: 5.6em;
+  color: rgba(255, 255, 255, 0.518);
+  font-size: 16em;
+  user-select: none;
+  overflow: hidden;
+  font-weight: bold;
 }
 .link-wrapper {
   display: flex;
+
   gap: 1.2rem;
 }
 .link-wrapper div a {
   color: white;
   text-decoration: none;
   transition: all 0.3s;
+  font-size: 1.8em;
 }
 .link-wrapper div a:hover {
   color: var(--bgOrange);
@@ -628,4 +634,36 @@ footer {
 .icon-wrapper {
   display: flex;
   gap: 1em;
+}
+@media (max-width: 1028px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .faded-text {
+    display: none;
+  }
+  .skills-container {
+    width: 60%;
+    right: 3rem;
+  }
+  .skill-container-left {
+  }
+  .skill-container-right {
+  }
+  .skill-subHeading {
+  }
+  .skill-heading {
+    font-size: 25%;
+  }
+  .skills-logo {
+    width: 20%;
+    transition: all 0.5s;
+  }
+  .footer-faded-text {
+    font-size: 4em;
+  }
+  .footer-wrapper {
+    align-items: center;
+  }
 }
