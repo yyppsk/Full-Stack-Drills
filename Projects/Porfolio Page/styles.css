@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  scroll-behavior: smooth;
 }
 #wrapper {
   height: 100vh;
@@ -21,6 +24,10 @@
 .logo {
   width: 80px;
 }
+.logo-text {
+  margin-left: -1.2rem;
+  font-size: 28px;
+}
 .logo-container {
   display: flex;
   justify-content: baseline;
@@ -30,4 +37,108 @@
   display: flex;
   gap: 2rem;
   padding: 0 4rem;
+}
+.nav-items div {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.nav-items a {
+  color: black;
+}
+.nav-items div:hover {
+  transition: 0.8;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.hero-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 0 1rem;
+  margin: 4rem auto;
+  padding-bottom: 8rem;
+}
+
+.faded-text {
+  user-select: none;
+  font-size: 7em;
+  color: rgb(231, 231, 231);
+  bottom: -16%;
+  left: -5%;
+  font-weight: bold;
+  transition: all 3s;
+}
+
+.hero-section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.hero-section-heading {
+  font-size: 35px;
+  color: #343d68;
+  font-weight: 500;
+}
+.pranjal {
+  width: 50%;
+}
+.role {
+  color: #4e45d5;
+  font-weight: 800;
+}
+.hero-section-sub-heading {
+  font-size: 45px;
+  line-height: 45px;
+}
+.hero-section-description {
+  margin-top: 1rem;
+  width: 70%;
+  font-weight: 500;
+}
+.btn-hire {
+  background-color: #e84949;
+  width: fit-content;
+  padding: 0.8rem 2.3rem;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  box-shadow: 5px 5px 7px 0px black;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: solid 3px transparent;
+}
+
+.btn-hire::before {
+  content: "";
+  background-color: #1f1f1f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: all 0.8s;
+  z-index: -1;
+}
+.btn-hire:hover::before {
+  transform: scaleX(1);
+}
+.btn-hire {
+  border: solid 3px orange;
+  color: white;
+}
+.hero-section-right {
+  position: relative;
+}
+.absolute {
+  position: absolute;
 }
