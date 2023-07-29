@@ -608,10 +608,10 @@ footer {
 .footer-faded-text {
   position: absolute;
   left: 0;
-  top: 0.1em;
+  top: 0.4em;
   bottom: 0;
   color: rgba(255, 255, 255, 0.518);
-  font-size: 16em;
+  font-size: 11.5em;
   user-select: none;
   overflow: hidden;
   font-weight: bold;
@@ -646,12 +646,6 @@ footer {
   .skills-container {
     width: 60%;
     right: 3rem;
-  }
-  .skill-container-left {
-  }
-  .skill-container-right {
-  }
-  .skill-subHeading {
   }
   .skill-heading {
     font-size: 25%;
