@@ -588,3 +588,44 @@ a {
   padding: 0 1rem;
   font-size: 1rem;
 }
+
+footer {
+  position: relative;
+  height: 5.4rem;
+  margin-top: -1px;
+  background-color: #343d68;
+  display: flex;
+  padding: 5rem;
+}
+.footer-wrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 1.2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-faded-text {
+  position: absolute;
+  left: 0;
+  top: 1.4em;
+  bottom: 0;
+  color: #535c87;
+  font-size: 5.6em;
+}
+.link-wrapper {
+  display: flex;
+  gap: 1.2rem;
+}
+.link-wrapper div a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+.link-wrapper div a:hover {
+  color: var(--bgOrange);
+  text-decoration: underline;
+}
+.icon-wrapper {
+  display: flex;
+  gap: 1em;
+}
