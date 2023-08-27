@@ -15,8 +15,7 @@
     
 - Project 4
 	- [Live Demo Here](https://yyppsk.github.io/Full-Stack-Drills/Projects/Modern%20Chair%20-%20Front%20End/)
-	- Vista Chair Ecommerce Design Responsive
-	- <img src="https://github.com/yyppsk/Full-Stack-Drills/blob/master/Project%20Display/creationist-frontend-chair.gif" />
+ 	- ![Vista Chair Ecommerce Design Responsive](https://github.com/yyppsk/Full-Stack-Drills/blob/master/Project%20Display/creationist-frontend-chair.gif)
  
  - Project 5
 	- 
@@ -29,4 +28,4 @@
 - Project 7
 	-
 	- PopUps (Self)
-	-  <img src="https://raw.githubusercontent.com/yyppsk/Full-Stack-Drills/master/Own%20Trials/PopUps/popup.gif" />
+	- ![Vista Chair Ecommerce Design Responsive](https://raw.githubusercontent.com/yyppsk/Full-Stack-Drills/master/Own%20Trials/PopUps/popup.gif)
