@@ -358,7 +358,7 @@ h5 {
   justify-content: center;
   border: none;
   cursor: pointer;
-  /* overflow: hidden; */
+  overflow: hidden;
   background-color: transparent;
   color: #fff;
   box-shadow: 0 6px 15px 0 rgba(16, 39, 112, 0.15);
@@ -366,8 +366,12 @@ h5 {
   text-decoration: none;
   margin-top: 50px;
   gap: 7px;
+  border-radius: 4px;
 }
-
+a {
+  text-decoration: none;
+  color: #fff;
+}
 .icon {
   font-size: 20px;
 }
