@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+nav {
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+  gap: 2rem;
+  background-color: #afe19e59;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.6;
+  transition: opacity 2s linear;
+}
+
+.nav-item {
+  color: #fff;
+  font-size: 1.6rem;
+  text-shadow: 3px 2px 4px #0d5e18;
+  transition: transform 0.2s linear;
+}
+
+a {
+  text-decoration: none;
+}
+nav:hover {
+  opacity: 1;
+}
+.nav-item:hover {
+  border-bottom: solid 2px orange;
+  border-top: solid 1px orange;
+  letter-spacing: 2px;
+  transform: scale(1.1);
+  transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.hero-image {
+  background-image: url(https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2074&q=80);
+  background-color: #cccccc;
+  height: 60vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transition: opacity 2s linear;
+  opacity: 0.6;
+}
+
+.hero-heading h1 {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4rem;
+  font-weight: 900;
+  font-size: 6vw;
+  color: #a5db93;
+  margin-left: 4rem;
+  transition: transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  text-shadow: 1px 2px 80px #000000;
+}
+
+/* Media query for screens below 400 pixels */
+@media (max-width: 595px) {
+  nav {
+    gap: 0.2rem;
+    height: auto;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-item {
+    margin-left: 1rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-heading h1 {
+    font-size: 8vw;
+    margin-left: 1rem;
+    letter-spacing: 2rem;
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 301px) {
+  nav {
+    gap: 0.2rem;
+    height: auto;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero-image {
+    height: 40vh;
+  }
+
+  .nav-item {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-heading h1 {
+    font-size: 4vw;
+    margin-left: 2rem;
+    letter-spacing: 2rem;
+  }
+}
+
+.hero-heading h1:hover {
+  transform: scale(1.1);
+}
+.hero-heading:hover {
+  opacity: 1;
+}
